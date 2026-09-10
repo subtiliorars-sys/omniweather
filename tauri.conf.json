@@ -1,0 +1,28 @@
+{
+  "productName": "OmniWeather",
+  "version": "0.1.0",
+  "identifier": "com.subtiliorars-sys.omniweather",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:5173",
+    "command": "npm run dev",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build"
+  },
+  "app": {
+    "title": "OmniWeather",
+    "windows": [
+      {
+        "label": "main",
+        "title": "OmniWeather",
+        "width": 1280,
+        "height": 800,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  }
+}
